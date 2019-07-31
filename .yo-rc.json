@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "pom.infy.test",
+    "packageFolder": "pom/infy/test",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "meteringsvc",
+    "applicationType": "microservice",
+    "buildTool": "maven",
+    "serverPort": "8080",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "NjYyNGZlMTAyYWY5NmI4MmZiYTg1OWIzNGU5YTBlNmI5NmM1YzRhYWFkNmNmZjUwZDZjNmZjMTQzNDE3MjhkYzkxY2FkNWI0MDk3Zjc2NGViMzY5N2NmNTRhMGVlMmFmMWQ4Mzc2YzEyYjRhYmRmNzJhZjMxZjhhYjNlY2NhNDM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer"
+  ]
+}
